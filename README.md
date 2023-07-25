@@ -43,7 +43,3 @@ Any contributions you make are greatly appreciated.
 ## Show your support
 
 Please ⭐️ this repository if this project helped you!
-
-### Acknowledgements
-Best-[here]README-Template
-
