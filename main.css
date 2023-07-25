@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  background-color: #1b1b1b;
+}
+
+button {
+  font-family: "Shantell Sans", cursive;
+}
+
+#header {
+  background-color: #c6c6c636;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#all-content {
+  /* background-color: green;*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-content {
+  /* background-color: rgb(95, 0, 0);*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #main-content {
+    height: 70%;
+  }
+}
+
+#grid-container {
+  background-color: #00d0dffd;
+  display: grid;
+  /*
+  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: auto auto auto;
+  */
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(3, 33.33%);
+  padding: 50px;
+  border: 12px solid #4d4d4d;
+  border-radius: 30px;
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.9);
+  aspect-ratio: 1/1;
+  height: 90%;
+}
+
+#header-and-board-wrapper {
+  /*background-color: orange;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+}
+
+.square {
+  /*background-color: blue;*/
+  padding: 20px;
+  border: 3px solid #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.square:hover {
+  background-color: #00abb8fd;
+}
+
+.action-btn {
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  margin-top: 10px;
+  /*padding: 7px 30px;*/
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(84, 60, 172);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.action-btn:hover {
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.7);
+  background-color: rgb(137, 105, 240);
+}
