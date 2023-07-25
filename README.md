@@ -35,11 +35,15 @@ Any contributions you make are greatly appreciated.
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-### Contact
-Mohammed - @mohammed4754
+## Author
 
-Project Link: https://github.com/Mohammed4754/X-O-Game
+- Mohammed - [Profile](https://github.com/Mohammed4754)
+- Project Link: https://github.com/Mohammed4754/X-O-Game
+
+## Show your support
+
+Please ⭐️ this repository if this project helped you!
 
 ### Acknowledgements
-Best-README-Template
+Best-[here]README-Template
 
